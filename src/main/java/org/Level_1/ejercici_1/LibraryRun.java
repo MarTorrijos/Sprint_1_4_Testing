@@ -21,7 +21,8 @@ public class LibraryRun {
         System.out.println("Obtenemos el título de un libro por su posición (posición 1):\n" + " -  "
                 + Library.showBook(1) + "\n");
 
-        System.out.println("Añadimos un libro en una posición específica (posición 1):\n" + Library.addBookHere(1, "Ella que llegó a ser el Sol"));
+        System.out.println("Añadimos un libro en una posición específica (posición 1):\n"
+                + Library.addBookHere(1, "Ella que llegó a ser el Sol"));
 
         System.out.println("Comprobamos que el libro está en la posición específica:\n" + Library.showAllBooks());
 

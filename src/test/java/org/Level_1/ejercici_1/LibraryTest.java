@@ -20,6 +20,11 @@ public class LibraryTest {
     }
 
     @Test
+    void listNotNull() {
+        assertNotNull(Library.getBookList(), "La lista es null");
+    }
+
+    @Test
     void listNotEmpty() {
         assertFalse(Library.getBookList().isEmpty(), "La lista no debería estar vacía");
     }
